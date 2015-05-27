@@ -1,0 +1,127 @@
+/* background image and color of page and most fonts */
+body {
+	font:16px Tahoma, Arial, sans-serif;
+	color:#000;
+	background:#000 url(http://demoautorespondermm.phpsitescripts.com/images/bg.jpg) left top repeat;
+	margin:0px;
+	padding:0px;
+}
+
+/* most navigation link colors and fonts */
+a {color:#00b5f1;text-decoration:underline;}
+
+/* most navigation link colors and fonts when mouseover */
+a:hover {color:#f4b726;text-decoration:none;}
+
+/* page heading colors and fonts. color: inherit means if the heading is outside a form table (below), it will inherit the color of the page text.
+	If the heading is INSIDE the form tables, it will instead inherit the color of the form table text */
+div.heading {color: inherit; font-size: 24px; font-weight: bold;}
+
+/* forms table colors - background color and font of main table */
+table.sabrinatable {background:#000;color:#fff;}
+
+/* forms table colors - background color and font of darker table rows */
+tr.sabrinatrdark {background:#a44ac6;color:#fff;}
+tr.sabrinatrdark tr td {background:#a44ac6;color:#fff;}
+
+/* forms table colors - background color and font of lighter table rows */
+tr.sabrinatrlight {background:#fff;color:#000;}
+tr.sabrinatrlight tr td {background:#fff;color:#000;}
+
+/* forms table colors - link colors and fonts of darker table rows */
+tr.sabrinatrdark a {color:#00b5f1;text-decoration:underline;}
+
+/* forms table colors - link colors and fonts of darker table rows when mouseover */
+tr.sabrinatrdark a:hover {color:#f4b726;text-decoration:none;}
+
+/* forms table colors - link colors and fonts of lighter table rows */
+tr.sabrinatrlight a {color:#00b5f1;text-decoration:underline;}
+
+/* forms table colors - link colors and fonts of lighter table rows when mouseover */
+tr.sabrinatrlight a:hover {color:#f4b726;text-decoration:none;}
+
+/* previous/next/numbered links for pages with pagination - colors/appearance */
+
+tr.sabrinatrlight heading {color:#ffffff;}
+
+a.menu {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ a.menu:hover {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    margin:0px;
+    padding:0px;
+    text-decoration: underline;
+    color: #f8d82b;
+}
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	width: 800px;
+	overflow: auto;
+}
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000000;
+	text-decoration: none;
+	color: #000000;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000000;
+	color: #000000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000;	
+	font-weight: bold;
+	background-color: #114C9E;
+	color: #fff;
+	}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000000;
+	color: #000000;
+	}
+
+h1 {
+	font:bold 30px Tahoma, Arial, sans-serif;
+	color:#00b5f1;
+	padding:0px 0px 20px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+.h1span {
+	font:30px Tahoma, Arial, sans-serif;
+	color:#fff;
+	font-weight:100;
+}
+
+h2 {
+	font:16px Tahoma, Arial, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+
+a.mainnav {
+	font:16px Tahoma, Arial, sans-serif;
+	font-weight: bold;
+	color:#fff;
+	text-decoration:none;
+}
+a.mainnav:hover {
+	font:16px Tahoma, Arial, sans-serif;
+	font-weight: bold;
+	color:#f4b726;
+	text-decoration:none;
+}
